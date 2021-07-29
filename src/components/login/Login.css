@@ -1,0 +1,167 @@
+.log__main {
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 40px;
+    border: 3px solid rgb(107, 2, 2);
+    margin-top: 80px;
+    color: black;
+}
+.log__header {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 2.5rem;
+    border-bottom: 1px solid white;
+}
+
+.log__header h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.log__header p {
+        font-family: 'Gill Sans',
+        'Gill Sans MT',
+        Calibri,
+        'Trebuchet MS',
+        sans-serif;
+
+}
+
+.log__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px
+}
+.log__input {
+    border: 1px solid rgb(46, 45, 45);
+    width: 250px;
+    background-color: rgb(250, 247, 253);
+}
+
+.log__input__type {
+    padding: 10px;
+    align-items: center;
+    text-decoration: none;
+    
+    
+}
+
+
+.log__input__type input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(78, 74, 74);
+    color: rgb(26, 25, 25);
+    text-align: center;
+    width: 100%;
+    padding: 7px;
+    outline-style: none;
+}
+
+.log__input__type input:hover {
+    
+    border-bottom: 2px solid rgb(253, 77, 77);
+    transform: scale(1.05);
+    transition: all ease-in-out 250ms;
+    text-decoration: none;
+    
+}
+button {
+    font-family: 'Gill Sans',
+        'Gill Sans MT',
+        Calibri,
+        'Trebuchet MS',
+        sans-serif;
+    font-size: 16px;  
+   
+
+}
+.log__in__button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+       
+}
+.log__in__button button {
+    cursor: pointer;
+    
+}
+.log__in__button button:hover {
+    background-color: rgb(135, 14, 255);
+    font-size: 19px;
+}
+
+.log__in__button button {
+    width: 100%;
+    background-color: rgb(122, 216, 0);
+    margin-top: 10px;
+    padding: 7px;
+}
+
+.log__short {
+    
+    border: 1px solid white;
+    width: 250px;
+     
+}
+
+.log__gmail {
+    padding: 1px;
+    
+}
+.log__gmail button {
+    width: 100%;
+    padding: 7px;
+    font-style: bold;
+    cursor: pointer;
+    
+}
+
+.log__gmail button:hover {
+    background-color: rgb(175, 189, 151);
+    color: rgb(22, 22, 22);
+    transform: scale(1.05);
+    transition: all ease-in-out 250ms;
+    border-radius: 4px;
+    border: none;
+}
+
+.log__footer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.log__footer p {
+    padding: 8px;
+}
+
+.log__footer p:hover {
+    color: red;
+    border-bottom: 1px solid rgb(248, 14, 14);
+    transition: all ease-in-out 500ms;
+    font-size: 18px;
+}
+
+@media (max-width: 720px) {
+    .log__main {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 100vh;
+        
+        
+    }
+    .log__body {
+        display: flex;
+        flex-direction: column;
+     }
+     
+     
+     
+}

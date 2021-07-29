@@ -1,0 +1,28 @@
+.vid__det__main {
+    margin: 20px 40px 200px 40px;
+    display: flex;
+    gap: 30px;
+    
+    
+}
+
+.vid__det__body {
+    flex: 0.7;
+    
+}
+
+.vid__siderbar {
+    flex:0.3;
+}
+
+@media (max-width: 1000px) {
+    .vid__det__main {
+        display: flex;
+        flex-direction: column;
+    }
+    .vid__det__body {
+        width: 100%;
+        height: auto;
+    }
+    
+}

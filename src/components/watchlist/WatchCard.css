@@ -1,0 +1,24 @@
+.wcard__main {
+    display: flex;
+    flex: start;
+}
+
+.wcard__thumbnail {
+    width: 300px;
+    height: 158px;
+    margin-right: 20px;
+}
+.channelinfo {
+    margin-top: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: darkgray;
+}
+
+@media (mix-width : 765px)
+{
+    .wcard__main {
+        
+        width: 100%;
+    }
+}

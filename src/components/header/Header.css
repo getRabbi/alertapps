@@ -1,0 +1,199 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    z-index: 100;
+
+}
+
+.toggler__menu__size {
+    width: 100px;
+    height: 100vh;
+}
+
+.logo {
+    width: 80px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 40px;
+    border: 1.5px solid white;
+
+}
+
+.logo:hover {
+    background-color: rgb(88, 0, 0);
+}
+
+nav {
+
+    display: flex;
+
+    flex: 1;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.menu__items {
+    cursor: pointer;
+    list-style: none;
+
+}
+
+.menu__items a {
+    margin: 0 5px 0 5px;
+}
+
+li {
+    margin-left: 15px;
+
+}
+
+.menu__button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: black;
+
+}
+
+.menu__logo {
+    width: 20px !important;
+    height: 15px !important;
+    font-size: 10px;
+    padding-right: 5px;
+    color: white;
+}
+
+.menu__button:hover {
+    color: red !important;
+}
+
+.user__logo {
+    cursor: pointer;
+
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.menu__span {
+    font-size: 13px;
+    letter-spacing: 1.42px;
+    position: relative;
+
+
+
+}
+
+.Link {
+    text-decoration: none;
+    color: white;
+}
+
+.Link:hover {
+    color: red;
+}
+
+.menu__span:hover {
+    color: rgb(95, 0, 0);
+}
+
+.menu__span::after {
+
+    content: "";
+    width: 100%;
+    height: 1.1px;
+    background: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+.menu__span:hover::after {
+    width: 100%;
+}
+
+.search__icon {
+    display: flex;
+    width: 30%;
+
+    align-items: center;
+    margin-left: 50px;
+
+
+    position: relative;
+}
+
+.search__icon>input {
+    flex: 1;
+    border: none;
+    align-items: center;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.search__icon input {
+    width: 100%;
+    height: 20px;
+}
+
+.input__button {
+
+    width: 40px !important;
+
+    color: white;
+    border-left: 1px solid black;
+}
+
+.sign__up {
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+.sign__up:hover {
+    color: red;
+}
+
+@media (max-width : 744px) {
+    .header {
+        display: flex;
+
+        align-items: center;
+
+
+
+    }
+
+    /* nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    } */
+    .header__nav {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+
+    }
+
+    .search__icon {
+        width: 100%;
+    }
+}

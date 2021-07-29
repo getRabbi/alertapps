@@ -1,0 +1,61 @@
+.vid__card__main {
+    margin-top: 35px;
+}
+
+
+
+
+
+.vid__card__image {
+    width: 100%;
+    height: 400px;
+}
+
+.vid__card__title {
+    margin: 20px 0 20px 0;
+}
+
+.vid__card__title h3{
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.vid__card__like {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.like__body {
+    margin-right: 50px;
+    
+}
+
+.like__body span {
+    padding: 0 10px ;
+}
+
+.vid__card__descr {
+    display: flex;
+}
+
+.vid__card__chInfo {
+    padding-left: 15px;
+    line-height: 1.6rem;
+}
+
+.vid__card__chInfo h4 {
+    font-weight: 600;
+}
+
+.subsriber {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.descripTion {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}

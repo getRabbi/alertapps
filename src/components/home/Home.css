@@ -1,0 +1,13 @@
+.main {
+    height: 100vh;
+    margin: 0 20px 0 20px;
+    color: black;
+
+}
+
+/*
+.main::before {
+    background: url("../images/home-background.png") center center / cover
+    no-repeat fixed;
+}
+*/
